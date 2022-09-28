@@ -1,0 +1,58 @@
+* *::before *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: goldenrod;
+  text-align: center
+}
+
+body{
+  background-image: url(https://static.vecteezy.com/ti/gratis-vektor/p1/2082630-poker-hintergrund-mit-royal-straight-flush-and-chips-auf-grun-casino-hintergrund-modernen-poker-widescreen-wallpaper-vektor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darkgreen;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#startButton {
+  color: #016f32;
+  padding: .2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: goldenrod;
+  border: none;
+  width: 150px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#newCardButton {
+  margin-top: .5rem;
+  color: #016f32;
+  padding: .2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: goldenrod;
+  border: none;
+  width: 150px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+#restartButton{
+  display: flex;
+  margin: auto;
+  height: inherit;
+  margin-top: 10vh;
+}
